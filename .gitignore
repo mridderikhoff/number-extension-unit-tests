@@ -1,0 +1,92 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/.auto-docs
+/dist
+/tmp
+/out-tsc
+
+# Test Artifacts
+.lambdatest
+./apps/auto-tests/cypress/downloads
+./apps/auto-tests/cypress/screenshots
+./apps/auto-tests/cypress/videos
+/apps/vr-tests/cypress.json
+/apps/vr-tests/cypress.config.ts
+
+# compiled output
+/libs/system-modules/styles/src/lib/
+/libs/system-modules/web-components/.stencil
+/libs/system-icons/src/icon-class-names.ts
+/libs/system-modules/core/src/lib/types/icon-class.type.ts
+/libs/system-modules/core/src/lib/types/icon-name.type.ts
+
+# system-docs generated output
+/apps/system-docs/src/app/app-routing.module.ts
+/apps/system-docs/src/app/generated-docs
+/apps/system-docs/src/app/icons-info.ts
+/apps/system-docs/src/app/version-info.ts
+/apps/system-docs/src/assets/
+/apps/system-docs/src/assets/c55-cl-common-styles*.zip
+/system-docs/what-is-new.md
+
+# Generated Localization Resources
+/apps/integration/src/assets/i18n
+/apps/system-docs/src/assets/i18n
+/apps/zoneless/src/assets/i18n
+/libs/system-modules/core/src/lib/translations.type.ts
+/libs/system-modules/core/src/lib/translations-tokens.ts
+
+# integration generated output
+/apps/integration/src/app/icons-info.ts
+/apps/integration/src/app/version-info.ts
+/apps/integration/src/assets
+
+# zoneless generated output
+/apps/zoneless/src/app/icons-info.ts
+/apps/zoneless/src/app/version-info.ts
+/apps/zoneless/src/assets/auto-docs
+/apps/zoneless/src/assets/images
+/apps/zoneless/src/assets/styles
+/apps/zoneless/src/assets/fonts
+
+# dependencies
+/node_modules
+
+# IDEs and editors
+/.idea
+.angular
+.project
+.build
+.classpath
+.dynamodb
+.serverless
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+**/debug.log
+
+# misc
+/.angular/cache
+/.sass-cache
+/connect.lock
+/coverage
+/test_results
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+/.vs
+
+# System Files
+.DS_Store
+Thumbs.db
